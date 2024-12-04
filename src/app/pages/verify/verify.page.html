@@ -1,0 +1,15 @@
+<ion-content [fullscreen]="true">
+  <ion-title  style="margin-top: 100px;">Casi llegamos</ion-title>
+  <ion-img src="assets\duoclogo.png"/>
+    <br>
+  <p class="subtitle">Ingrese el código de 4 dígitos que recibió para su verificación</p>
+  <div class="inputfield">
+    <input type="number" maxlength="1" class="input"  />
+    <input type="number" maxlength="1" class="input"  />
+    <input type="number" maxlength="1" class="input"  />
+    <input type="number" maxlength="1" class="input"  />
+  </div>
+  <div class="btnContainer" >
+  <ion-button  shape="round" color="secondary" class="btn" [routerLink]="['/home']">Verify</ion-button>
+  </div>
+</ion-content>

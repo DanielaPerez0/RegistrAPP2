@@ -1,0 +1,21 @@
+.table-header {
+  font-weight: bold;
+  width: 33%;
+  text-align: center;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.table-row ion-label {
+  width: 33%;
+  text-align: center;
+}
+
+.qr-code-container {
+  margin-top: 10px;
+  text-align: center;
+}
